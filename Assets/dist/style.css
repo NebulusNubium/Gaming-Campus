@@ -578,6 +578,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -915,6 +919,23 @@ video {
   font-family: "Roboto Bold";
 
   src: url("../fonts/static/Roboto-Bold.ttf");
+}
+
+.hover\:border-4:hover {
+  border-width: 4px;
+}
+
+.hover\:border-t-4:hover {
+  border-top-width: 4px;
+}
+
+.hover\:border-b-4:hover {
+  border-bottom-width: 4px;
+}
+
+.hover\:border-sky-500:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(14 165 233 / var(--tw-border-opacity, 1));
 }
 
 .hover\:bg-red-500:hover {
