@@ -578,6 +578,14 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -634,6 +642,10 @@ video {
   width: 5rem;
 }
 
+.w-5 {
+  width: 1.25rem;
+}
+
 .list-none {
   list-style-type: none;
 }
@@ -676,6 +688,18 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-\[25\%\] {
+  gap: 25%;
+}
+
+.gap-\[10\%\] {
+  gap: 10%;
+}
+
+.gap-\[7\%\] {
+  gap: 7%;
 }
 
 .rounded-xl {
@@ -801,6 +825,10 @@ video {
   padding-top: 1.25rem;
 }
 
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -826,6 +854,11 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .leading-3 {
@@ -882,4 +915,45 @@ video {
   font-family: "Roboto Bold";
 
   src: url("../fonts/static/Roboto-Bold.ttf");
+}
+
+.hover\:bg-red-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:p-5:hover {
+  padding: 1.25rem;
+}
+
+.hover\:p-10:hover {
+  padding: 2.5rem;
+}
+
+.hover\:p-3:hover {
+  padding: 0.75rem;
+}
+
+.hover\:pr-5:hover {
+  padding-right: 1.25rem;
+}
+
+.hover\:pb-5:hover {
+  padding-bottom: 1.25rem;
+}
+
+.hover\:pt-3:hover {
+  padding-top: 0.75rem;
+}
+
+.hover\:pb-3:hover {
+  padding-bottom: 0.75rem;
+}
+
+.hover\:font-robotob:hover {
+  font-family: Roboto Bold;
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
